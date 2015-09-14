@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>golang</id>
+    <title>Go programming language (Zip)</title>
+    <version>1.5</version>
+    <authors>Robert Griesemer, Rob Pike, Ken Thompson</authors>
+    <owners>Shiy</owners>
+    <summary>Go is an open source programming environment that makes it easy to build simple, reliable, and efficient software.</summary>
+    <description>Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.</description>
+    <projectUrl>http://golang.org/</projectUrl>
+    <packageSourceUrl>http://golang.org/</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>go golang</tags>
+    <copyright></copyright>
+    <licenseUrl>http://golang.org/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- <iconUrl></iconUrl> -->
+    <!-- <dependencies>
+        <dependency id="Chocolatey" version="0.9.9.8" />
+    </dependencies> -->
+    <releaseNotes>1.5</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
