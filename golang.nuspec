@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>golang</id>
     <title>Go programming language (Zip)</title>
-    <version>1.5</version>
+    <version>1.5.1</version>
     <authors>Robert Griesemer, Rob Pike, Ken Thompson</authors>
     <owners>Shiy</owners>
     <summary>Go is an open source programming environment that makes it easy to build simple, reliable, and efficient software.</summary>
@@ -24,7 +24,7 @@
     <!-- <dependencies>
         <dependency id="Chocolatey" version="0.9.9.8" />
     </dependencies> -->
-    <releaseNotes>1.5</releaseNotes>
+    <releaseNotes>1.5.1</releaseNotes>
     <!--<provides></provides>-->
   </metadata>
   <files>

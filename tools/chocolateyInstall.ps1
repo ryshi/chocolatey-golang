@@ -1,5 +1,5 @@
 $packageName = 'golang'
-$version = '1.5'
+$version = '1.5.1'
 $url = 'http://server.pkg/pkgs/golang/go' + $version + '.windows-386.zip'
 $url64 = 'http://server.pkg/pkgs/golang/go' + $version + '.windows-amd64.zip'
 $validExitCodes = @(0)
